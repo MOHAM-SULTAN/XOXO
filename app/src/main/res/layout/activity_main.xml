@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#ffff"
+            android:layout_margin="10dp"
+            android:background="@drawable/play_one"
+            android:padding="8dp"
+            android:id="@+id/play1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Player 1: 0"
+            android:textSize="30sp" />
+        <TextView
+            android:textColor="#ffff"
+            android:layout_margin="10dp"
+            android:background="@drawable/play_two"
+            android:padding="8dp"
+            android:layout_below="@+id/play1"
+            android:id="@+id/play2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Player 2: 0"
+            android:textSize="30sp" />
+        <Button
+            android:textColor="#ffff"
+            android:id="@+id/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="reset"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="33dp"
+            android:background="@drawable/reset_button"/>
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:textAlignment="center"
+            android:layout_margin="5dp"
+            android:id="@+id/btn00"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:background="@drawable/button_odd"/>
+        <Button
+            android:textAlignment="center"
+            android:layout_margin="5dp"
+            android:id="@+id/btn01"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:background="@drawable/button_even"/>
+        <Button
+            android:textAlignment="center"
+            android:layout_margin="5dp"
+            android:id="@+id/btn02"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:background="@drawable/button_odd"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:textAlignment="center"
+            android:layout_margin="5dp"
+            android:id="@+id/btn10"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:background="@drawable/button_even"/>
+        <Button
+            android:textAlignment="center"
+            android:layout_margin="5dp"
+            android:id="@+id/btn11"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:background="@drawable/button_odd"/>
+        <Button
+            android:textAlignment="center"
+            android:layout_margin="5dp"
+            android:id="@+id/btn12"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:background="@drawable/button_even"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <Button
+            android:textAlignment="center"
+            android:layout_margin="5dp"
+            android:id="@+id/btn20"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:background="@drawable/button_odd"/>
+        <Button
+            android:textAlignment="center"
+            android:layout_margin="5dp"
+            android:id="@+id/btn21"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:background="@drawable/button_even"/>
+        <Button
+            android:textAlignment="center"
+            android:layout_margin="5dp"
+            android:id="@+id/btn22"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:background="@drawable/button_odd"/>
+
+    </LinearLayout>
+
+</LinearLayout>
